@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "DragonFire";
+    src: url("assets/DragonFire-K7voy.ttf");
+}
+
+/*-- LAV CURSOR STØRRE --*/
+/*-- LAV CURSOR ANDERLEDES NÅR DER KAN KLIKKES --*/
+
+a {
+    cursor: url("svg/wand-white.svg"), auto;
+}
+
+button {
+    cursor: url("svg/wand-white.svg"), auto;
+}
+
+h1 {
+    font-family: "DragonFire", serif;;
+    letter-spacing: 1.3px;
+}
+
+h2 {
+    font-family: "DragonFire", serif;
+    letter-spacing: 1.3px;
+}
+
+h3 {
+    font-family: "DragonFire", serif;
+    font-size: 21pt;
+    letter-spacing: 1.5px;
+}
+
+p {
+    font-family: "Crimson Pro", serif;
+    font-size: 14pt;
+    letter-spacing: 1.25px;
+}
+
+span {
+    font-family: "DragonFire", serif;
+    font-size: 20pt;
+    letter-spacing: 2px;
+    text-align: center;
+}
