@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header {
+    position: sticky;
+    width: 100%;
+    top: 0%;
+    z-index: 10;
+}
+
+#headerart {
+    position: block;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    filter: drop-shadow(0px 0px 10px black);
+}
+
+#header-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    top: 3px;
+    padding: 0;
+    transform: (-50%, -50%);
+    z-index: 2;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 80px;
+    list-style-type: none;
+    align-items: center;
+    font-family: "DragonFire", serif;
+    font-size: 16pt;
+    letter-spacing: 1.25px;
+    padding: 0;
+}
+
+#spellbook {
+    width: auto;
+    height: 37px;
+}
+
+#wizard {
+    width: auto;
+    height: 37px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    filter: none;
+    transition: ease-in-out 0.3s;
+}
+
+.navbar a:hover {
+    filter: drop-shadow(0px 0px 5px black);
+    transition: ease-in-out 0.5s;
+    text-decoration: underline;
+}
+
+.navbar img {
+    transform: scale(1);
+    transition: ease-in-out 0.3s;
+}
+
+.navbar img:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 0.5s;
+}
+
