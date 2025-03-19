@@ -1,0 +1,33 @@
+#hero{
+    position: sticky;
+}
+#hero video{
+    width: 101%;
+    margin:-10px 0px 0px -8px;
+    position: relative;
+
+}
+
+#logo{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+#text{
+    top: 300px;
+    left: 210px;
+    position: absolute;
+}
+
+#text h1{
+    font-size: xx-large;
+    color: white;
+}
+
+#text p{
+    font-size: medium;
+    color: white;
+    text-wrap: balance;
+
+}
