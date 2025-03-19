@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <title>Welcome!</title>
+    <title>Login</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="landingpage.css">
-    <link rel="stylesheet" href="headerfooter.css">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="headerfooter.css">
+    <link rel="stylesheet" type="text/css" href="profile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Eagle+Lake&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
@@ -32,43 +32,37 @@
 </header>
 
 <main>
-    <div id="hero">
-        <video src="assets/herovideo2.mp4" autoplay muted loop></video>
-    </div>
-    
-    <div id="herocontent">   
-        <div id="logodiv">
-            <img src="assets/logo.png" id="bg3logo" alt="baldur's gate 3 logo">
+    <section id="loginsection">
+        <div id="portraitsection">
+            <div id="loginportrait">
+                <img src="assets/profileframe.png" id="profileframe" alt="profile frame">
+                <img src="assets/wizard.png" id="wizard2" alt="pfp placeholder">
+            </div>
         </div>
 
-        <div id="fronttext">
-            <h1>Welcome!</h1>
-            <p>
-                Want to play Baldur's Gate 3 but unsure of where to start?
-            </p>
-            <p>
-                Welcome to our guide!  
-            </p>
-            <p>
-                Here we cover everything from lore<br>
-                and maps to strategies and achievements.
-            </p>
-            <p>
-                We hope you will find this page useful and get a lot of use<br>
-                 out of it. We were inspired to make this guide from our<br>
-                 own interest of the game, and own needs for all of the<br> 
-                 information on one collective website and thought<br>
-                others could make use of this as well.
-            </p>
+        <div id="knapper">
+            <div class="knap">
+                <img src="assets/knapmedskygge.png" class="knapimg" alt="knap med skygge">
+                <h3>
+                    Username
+                </h3>
+            </div>
+
+            <div class="knap">
+                <img src="assets/knapmedskygge.png" class="knapimg" alt="knap med skygge">
+                <h3>
+                    Email
+                </h3>
+            </div>
         </div>
-    </div>
+    </section>
 </main>
 
 <footer>  
     <div id="footerart">
         <img src="assets/footer.png" id="footerartimg" alt="footer art">
     </div>
-    
+
     <div id="wholefooter">
         <section class="footersection">
             <h4>Gamer's Manual</h4>
@@ -78,7 +72,7 @@
                 <li><a href="https://baldursgate3.game/#buy">Official shop</a></li>
             </ul>
         </section>
-            
+        
         <section class="footersection">
             <h4>Contact us</h4>
             <ul>
@@ -86,18 +80,17 @@
                 <li><a href="mailto:roch25eaa@students.eaaa.dk?subject=Questions&body=Thank%20you%20for%20your%20service.">tiredprogrammer79@gmail.com</a></li>
             </ul>
         </section>
-    
+
         <section class="footersection">
             <h4>Copyright</h4>
-    
+
             <p>&copy;Copyright Tired Programmers plc<br>
-    
+
             Gamer's Manual is a part of Tired Programmers plc</p>
-    
+
             <img src="assets/gmlogo.png" id="gmlogo" alt="gamer's manual logo">
         </section>
     </div>
 </footer>
 
 </body>
-</html>

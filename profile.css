@@ -1,0 +1,84 @@
+body {
+    background-image: url("assets/parchmentbackground-blue.png");
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+#loginsection {
+    display: flex;
+    flex-direction: column;
+    margin-top: -85px;
+    margin-bottom: -85px;
+}
+
+#loginportrait {
+    position: relative;
+    height: 380px;
+}
+
+#profileframe {
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    filter: drop-shadow(0px 0px 15px black);
+    pointer-events: none;
+}
+
+#wizard2 {
+    position: absolute;
+    background: black;
+    border-radius: 300px;
+    width: 210px;
+    height: 210px;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+#knapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+
+.knap {
+    display: flex;
+    position: relative;
+    filter: drop-shadow(0px 0px 10px black);
+    transition: filter 0.5s ease-in-out;
+    transform: scale(1);
+}
+
+.knapimg {
+    width: 350px;
+    z-index: 1;
+}
+
+.knap h3 {
+    position: absolute;
+    top: 35%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 2;
+}
+
+.knap:hover {
+    filter: drop-shadow(0px 0px 5px black);
+    transition: ease-in-out 0.3s;
+}
+
+.knap:active {
+    filter: none;
+    transition: ease-in-out 0.3s;
+    transform: scale(0.95);
+}

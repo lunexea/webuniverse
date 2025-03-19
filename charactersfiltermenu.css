@@ -1,0 +1,91 @@
+.topmenu a {
+    font-family: "Crimson Pro", serif;
+    font-size: 16pt;
+    letter-spacing: 1.25px;
+    color: white;
+}
+
+.topmenu {
+    display: flex;
+    flex-direction: inline-block;
+    justify-content: center;
+    margin-top: -10px;
+    padding-bottom: 60px;
+    width: 100%;
+    gap: 33%;
+}
+
+.filterby {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #091936;
+    width: 330px;
+    height: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #4E618C;
+    text-align: left;
+    font-family: "Crimson Pro", serif;
+    font-size: 16pt;
+    letter-spacing: 1.25px;
+    color: white;
+}
+
+.filterby img {
+    height: 17px;
+    transform: rotate(180deg);
+}
+
+.sortingmenu {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #091936;
+    z-index: 4;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    min-width: 297px;
+    height: 35px;
+    padding: 2px;
+    padding-left: 30px;
+    border: 1px solid #4E618C;
+}
+
+.sortingmenu:hover .dropdown-content {
+    display: block;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
+.topmenu input[type=text] {
+    background-color: #091936;
+    border: 1px solid #4E618C;
+    width: 330px;
+    height: 30px;    
+    font-family: "Crimson Pro", sans-serif;
+    font-size: 16pt;
+    text-align: left;
+    color: white;
+}
+
+button {
+    background-color: #4E618C;
+    height: 33.5px;
+    width: 33.5px;
+    border: none;
+}
+

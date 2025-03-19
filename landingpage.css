@@ -1,0 +1,48 @@
+.body {
+    margin:0;
+    padding: 0;
+}
+
+main {
+    margin-bottom: -160px;
+}
+
+#hero {
+    position: relative;
+}
+
+#hero video {
+    width: 100%;
+    margin: -160px 0px 0px 0px;
+}
+
+#herocontent {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 50%; 
+    right: 0%;
+    transform: translate(-20%, -50%);
+}
+
+#logodiv {
+    display: flex;
+    justify-content: center;
+}
+
+#bg3logo {
+    width: 400px;
+}
+
+#fronttext {
+    text-align: center;
+}
+
+#fronttext h1 {
+    color: white;
+}
+
+#fronttext p {
+    color: white;
+}

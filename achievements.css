@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("assets/parchmentbackground-blue9000px.png");
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -100px;
+}
+
+main h1 {
+    color: white;
+}
+
+table {
+    width: 1200px;
+    font-size: 15pt;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table h4 {
+    font-family: "DragonFire", serif;
+    font-size: 15pt;
+    font-weight: 100;
+    margin: 0%;
+    padding: 0%;
+    padding-left: 20px;
+}
+
+table p {
+    margin: 0%;
+    padding: 0%;
+    padding-left: 15px;
+}
+
+tr {
+    color: white;
+    background-color: #182234d2;
+}
+
+
+th {
+    font-family: "Crimson Pro", sans-serif;
+    background-color: white;
+    color: black;
+    height: 40px;
+}
+
+td {
+    border: 1px solid white;
+    height: 30px;
+}
