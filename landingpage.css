@@ -21,8 +21,10 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    top: 50%; 
-    right: 0%;
+    height: 600px;
+    padding-top: -20%;
+    top: 43%; 
+    right: 2%;
     transform: translate(-20%, -50%);
 }
 
@@ -32,7 +34,8 @@ main {
 }
 
 #bg3logo {
-    width: 400px;
+    width: 250px;
+    margin-bottom: -7%;
 }
 
 #fronttext {
@@ -41,8 +44,11 @@ main {
 
 #fronttext h1 {
     color: white;
+    filter: drop-shadow(0px 0px 10px black);
 }
 
 #fronttext p {
+    font-size: 11pt;
     color: white;
+    padding-top: -1%
 }

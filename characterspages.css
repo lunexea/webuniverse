@@ -6,6 +6,10 @@ body {
 
 .approvallist {
     margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .characterlist {
@@ -16,11 +20,27 @@ body {
     width: 100%;
 }
 
+#introdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
 h1 {
     display: flex;
-    text-align: center;
-    justify-content: center;
     color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 400px;
+    border-bottom: 3px solid white;
+}
+
+p {
+    color: white;
+    text-align: center;
+    margin-top: -20px;
 }
 
 .name {

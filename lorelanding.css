@@ -3,24 +3,29 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    height: 1920;
+    height: auto;
+}
+
+main {
+    margin-top: -5%;
 }
 
 .knapimg {
-    width: 80%;
+    width: 400px;
 }
 
 .parchmentimg {
-    width: 60%;
+    width: 330px;
     filter: drop-shadow(0px 0px 10px black);
 }
 
 .lorecontainer {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     padding: 60px;
     padding-top: 0%;
-    margin-bottom: -80px;
+    margin-bottom: -90px;
 }
 
 .lorecontainer2 div {
@@ -30,7 +35,7 @@ body {
     align-items: center;
 }
 
-.lorecontainer h2 {
+.lorecontainer h3 {
     position: absolute;
     font-weight: bold;
     color: white;
@@ -70,6 +75,6 @@ body {
 .parchmenttext p {
     text-align: center;
     font-size: 15pt;
-    line-height: 1.20;
+    line-height: 1.10;
 }
 
